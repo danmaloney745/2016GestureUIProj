@@ -45,16 +45,7 @@ public class GameManager : MonoBehaviour
         {
             GameOverText.text = "GAME OVER";            //Show GUI GameOver
             FinalScoreText.text = "FINAL SCORE: " + score.score;           //Show GUI FinalScore
-            ReplayText.text = "Shoot the left box to replay!";      //Show GUI Replay
-            MainMenuText.text = "Shoot the right box for main menu!";
-
-            menuCube.SetActive(true);
-            menuCube.GetComponent<Renderer>().enabled = true;
-
-            restartCube.SetActive(true);
-            restartCube.GetComponent<Renderer>().enabled = true;
-
-
+            MainMenuText.text = "PRESS ESC TO QUIT!";
 
             if (Input.GetKeyDown(KeyCode.R))
             {
@@ -66,10 +57,11 @@ public class GameManager : MonoBehaviour
 
             }
 
-            if (Input.GetKeyDown(KeyCode.M))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                Application.LoadLevel(Application.loadedLevel - 1);
+                Application.Quit();
             }
+
 
         }
     }
