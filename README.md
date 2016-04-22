@@ -67,6 +67,10 @@ While the Myo armband is an interesting idea, it is just that. An idea. The actu
 The following link below is a visual demonstration of the game and the gesture moevements we used to play the game.
 [https://www.youtube.com/watch?v=VJTr6iqz8lw]
 
+## Presentation
+After the application had been created we presented the project to our lecturer and peers, in doing so we prepared some presentation slides to document how the project went. The link to the presentation slides can be found below.
+[https://docs.google.com/presentation/d/1NUwZPbhnfbxN0Tj4Sxc0ear5hsH2RaVqYwB4I38Dig8/edit#slide=id.p3]
+
 ## Old Repo
 We ran into a couple of issues on the last day with Unity and github.
 
