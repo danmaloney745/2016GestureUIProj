@@ -63,8 +63,11 @@ This script contains all of the gestures needed to control the gun in the game. 
 ## Conclusions & Recommendations
 While the Myo armband is an interesting idea, it is just that. An idea. The actual tracking of your arm does work, albeit in 2D. The gesture inputs are where the devices let's itself down. They either float between being far too sensitive, or not sensitive enough. Combine this with the fact that the Myo itself sometimes just does not work and requires it's software to be removed and reinstalled from the computer you are using, the Myo leaves a whole lot to be desired. However, if another version of the device was developed that addresses these issues, the the Myo may actually be something special.
 
-##Old Repo
+## Visual Demonstration
+The following link below is a visual demonstration of the game and the gesture moevements we used to play the game.
+[https://www.youtube.com/watch?v=VJTr6iqz8lw]
 
+## Old Repo
 We ran into a couple of issues on the last day with Unity and github.
 
 All previous commits can be located at: [https://github.com/YesManKablam/2016GestureProject]
